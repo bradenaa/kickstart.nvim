@@ -106,7 +106,11 @@ vim.g.have_nerd_font = false
 vim.o.number = true
 -- You can also add relative line numbers, to help with jumping.
 --  Experiment for yourself to see if you like it!
+<<<<<<< HEAD
 -- vim.o.relativenumber = true
+=======
+vim.o.relativenumber = true
+>>>>>>> ce9282d (conflict)
 
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.o.mouse = 'a'
@@ -252,9 +256,15 @@ rtp:prepend(lazypath)
 >>>>>>> c92ea7c (Replace vim.opt with vim.o (#1495))
 require('lazy').setup({
 <<<<<<< HEAD
+<<<<<<< HEAD
   'NMAC427/guess-indent.nvim',
 =======
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
+=======
+  -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
+  'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
+  'tpope/vim-fugitive',
+>>>>>>> ce9282d (conflict)
   'NMAC427/guess-indent.nvim', -- Detect tabstop and shiftwidth automatically
 
   -- NOTE: Plugins can also be added by using a table,
